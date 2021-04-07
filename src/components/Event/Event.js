@@ -7,7 +7,7 @@ const Event = ({ event }) => {
 
   const history = useHistory()
     const handleBuy = (name) => {
-        history.push(`/buy/${name}`);
+        history.push(`/book/${name}`);
     }
 
     return (

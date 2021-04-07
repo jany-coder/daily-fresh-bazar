@@ -47,7 +47,7 @@ function App() {
           <Route path="/login">
               <Login></Login>
           </Route>
-          <PrivateRoute path="/buy">
+          <PrivateRoute path="/book/:name">
               <Buy></Buy>
           </PrivateRoute>
         </Switch>
