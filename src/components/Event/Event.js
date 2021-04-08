@@ -8,6 +8,7 @@ const Event = ({ event }) => {
   const history = useHistory()
     const handleBuy = (name) => {
         history.push(`/book/${name}`);
+        //history.push(`/book/${price}`);
     }
 
     return (

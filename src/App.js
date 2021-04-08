@@ -30,7 +30,7 @@ function App() {
           <Nav className="mr-auto">
             <Nav.Link href="#home"><Link to="/">Home</Link></Nav.Link>
             <Nav.Link href="#features"><Link to="/addProducts">Admin</Link></Nav.Link>
-            <Nav.Link href="#pricing"><Link to="/order">Order</Link></Nav.Link>
+            <Nav.Link href="#pricing"><Link to="/book">Order</Link></Nav.Link>
             <Nav.Link href="#">{loggedInUser.name}</Nav.Link>
           </Nav>
         </Navbar>
